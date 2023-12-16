@@ -1,0 +1,20 @@
+.img-index {
+  width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Permite que la altura se ajuste automáticamente proporcionalmente al ancho */
+  display: block; /* Para eliminar cualquier espacio adicional debajo de la imagen */
+}
+
+/* Media query para ajustar la imagen en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .img-index {
+    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+  }
+}
+@media (min-width: 576px) {
+  /* Establecer una clase para la columna con texto largo */
+  .max-width-column {
+    max-width: 150px; /* Define el ancho máximo para la columna */
+    overflow-y: auto; /* Agrega desplazamiento vertical si el contenido excede la altura */
+  }
+}
